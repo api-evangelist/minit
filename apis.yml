@@ -1,7 +1,26 @@
 aid: minit
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/minit.png
 name: Minit
-description: Minit is a company surfaced as a portfolio company of earlybird and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Minit was a process-mining software company founded in 2015 and headquartered in Bratislava,
+  Slovakia. Its platform ingested event-log data from systems of record (ERP, CRM, service desks) to
+  reconstruct, visualize, and analyze how business processes actually run, surfacing bottlenecks, rework,
+  compliance gaps, and automation opportunities. Backed by Earlybird Venture Capital (among other investors),
+  Minit was acquired by Microsoft in March 2022, and its process-mining technology was folded into Microsoft
+  Power Automate Process Mining (process advisor). The standalone Minit product, developer surface, and
+  minit.io site have been retired; the domain now resolves through Microsoft-controlled Azure DNS and no
+  longer serves a public site or API. This profile is retained as a network record of an acquired company;
+  there is no independent Minit API to enrich.
 url: https://raw.githubusercontent.com/api-evangelist/minit/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +28,30 @@ x-backed-by:
 - earlybird
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: microsoft
+x-acquired-date: '2022-03-31'
+x-successor-product: Microsoft Power Automate Process Mining
+x-successor-url: https://learn.microsoft.com/en-us/power-automate/process-mining-overview
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Process Mining
+- Business Process Management
+- Process Automation
+- Analytics
+- Acquired
+- Microsoft
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
