@@ -33,7 +33,7 @@ x-acquired-by: microsoft
 x-acquired-date: '2022-03-31'
 x-successor-product: Microsoft Power Automate Process Mining
 x-successor-url: https://learn.microsoft.com/en-us/power-automate/process-mining-overview
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
